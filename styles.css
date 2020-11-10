@@ -28,7 +28,7 @@ body{
     grid-template-rows: repeat(2, 47%);
     grid-gap: 25px;
 
-    width: 80%;
+    width: 1440px;
     height: 600px;
     margin: 80px auto 0 auto;
     
