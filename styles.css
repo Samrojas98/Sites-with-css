@@ -1,0 +1,292 @@
+/*fuentes*/
+
+@font-face{
+    font-family: "Barlow5";
+    font-weight: normal;
+    src: url(../testimonials-grid-section-main/fonts/BarlowSemiCondensed-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Barlow6";
+    font-weight: normal;
+    src: url(../testimonials-grid-section-main/fonts/BarlowSemiCondensed-SemiBold.ttf);
+}
+
+
+/*Generales*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(210, 46%, 95%);
+}
+
+#layout{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 47%);
+    grid-gap: 25px;
+
+    width: 80%;
+    height: 600px;
+    margin: 80px auto 0 auto;
+    
+}
+
+.attribution {
+    margin-top: 90px;
+}
+
+/*Cajas*/
+
+.caja-daniel{
+    
+    color: hsl(0, 0%, 100%);
+    background: hsl(263, 55%, 52%);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.caja-jonathan{
+    color: hsl(0, 0%, 100%);
+    background: hsl(217, 19%, 35%);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.caja-kira{
+    color: hsl(217, 19%, 35%);
+    background: hsl(0, 0%, 100%);
+    grid-row: span 2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.caja-jeanette{
+    color: hsl(217, 19%, 35%);
+    background: hsl(0, 0%, 100%);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.caja-patrick{
+    color: hsl(0, 0%, 100%);
+    background: hsl(219, 29%, 14%);
+    grid-column-start: -4;
+    grid-column-end: -2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+/*Letras hombres*/
+
+#layout .nombre-h{
+    font-family: "Barlow6";
+    font-size: 13px;
+}
+
+#layout .verified-h{
+    font-family: "Barlow5";
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+
+#layout .subtitulo-h{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: "Barlow6";
+    font-size: 19px;
+}
+
+#layout .contenido-h{
+    margin-top: 39px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    font-family: "Barlow5";
+    font-size: 12px;
+    color: hsl(0, 0%, 81%);
+    line-height: 1.6;
+}
+
+#layout .caja-daniel .subtitulo-h{
+    position: relative;
+    bottom: -18px;
+    margin-top: -51px;
+}
+
+#layout .caja-daniel .contenido-h{
+    margin-top: 34px;
+    line-height: 1.6;
+}
+
+#layout .caja-daniel .verified-h{
+    position: relative;
+    margin-left: 75px;
+    bottom: 33px;
+}
+
+#layout .caja-daniel .nombre-h{
+    position: relative;
+    margin-left: 75px;
+    bottom: 20px;
+}
+
+#layout .caja-jonathan .subtitulo-h{
+    position: relative;
+    bottom: -22px;
+    margin-top: -51px;
+    
+}
+
+#layout .caja-jonathan .nombre-h{
+    position: relative;
+    margin-left: 71px;
+    bottom: -16px;
+}
+
+#layout .caja-jonathan .verified-h{
+    position: relative;
+    margin-left: 71px;
+    bottom: -2px;
+}
+
+#layout .caja-jonathan .nombre-y-v-j{
+    position: relative;
+    bottom: 33px;
+}
+
+#layout .caja-patrick .contenido-h{
+    position: relative;
+    bottom: 15px;
+}
+
+#layout .caja-patrick .subtitulo-h{
+    position: relative;
+    bottom: -2px;
+}
+
+#layout .caja-patrick .nombre-y-v-pa{
+    position: relative;
+    margin-left: 71px;
+    bottom: -3px;
+}
+
+#layout .caja-patrick .nombre-h{
+    position: relative;
+    bottom: -13px;
+}
+
+
+/*Letras mujeres*/
+
+#layout .nombre-m{
+    font-family: "Barlow6";
+    font-size: 13px;
+    position: relative;
+    bottom: -13px;
+}
+
+#layout .verified-m{
+    font-family: "Barlow5";
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+
+#layout .subtitulo-m{
+    font-family: "Barlow6";
+    font-size: 13px;
+}
+
+
+#layout .contenido-m{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: "Barlow5";
+    font-size: 13px;
+    color: #a3a8ae;;
+    line-height: 1.6;
+}
+
+#layout .caja-jeanette .contenido-m{
+    position: relative;
+    bottom: -4px;
+}
+
+#layout .caja-jeanette .subtitulo-h{
+    position: relative;
+    bottom: -1px; 
+}
+
+#layout .caja-jeanette .nombre-y-v-je{
+    position: relative;
+    margin-left: 71px;
+    bottom: -3px;
+}
+
+#layout .caja-kira .contenido-m{
+    position: relative;
+    bottom: 9px;
+    font-size: 12px;
+}
+
+#layout .caja-kira .subtitulo-h{
+    position: relative;
+    bottom: 6px;
+}
+
+#layout .caja-kira .nombre-y-v-k{
+    position: relative;
+    margin-left: 71px;
+    
+}
+
+
+/*Imagenes*/
+
+.caja-daniel .sticker{
+    position: absolute;
+    margin-left: 337px;
+}
+
+#layout .img-daniel img{
+    position: relative;
+    bottom: -28px;
+    width: 27px;
+    margin-left: 35px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #a3a8ae;
+}
+
+#layout .img-jonathan img{
+    position: relative;
+    bottom: -28px;
+    width: 27px;
+    margin-left: 35px;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+#layout .caja-jeanette img{
+    position: absolute;
+    bottom: 236px;
+    width: 27px;
+    margin-left: 35px;
+    border-radius: 30px 30px 30px 30px; 
+}
+
+#layout .caja-patrick img{
+    position: absolute;
+    bottom: 233px;
+    width: 27px;
+    margin-left: 35px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+#layout .caja-kira img{
+    position: absolute;
+    bottom: 546px;
+    width: 27px;
+    margin-left: 35px;
+    border-radius: 30px 30px 30px 30px; 
+}
