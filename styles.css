@@ -86,7 +86,7 @@ body{
 
 #layout .verified-h{
     font-family: "Barlow5";
-    font-size: 11px;
+    font-size: 13px;
     color: hsl(0, 0%, 81%);
 }
 
@@ -103,7 +103,7 @@ body{
     margin-right: 35px;
     margin-bottom: 35px;
     font-family: "Barlow5";
-    font-size: 12px;
+    font-size: 13px;
     color: hsl(0, 0%, 81%);
     line-height: 1.6;
 }
@@ -188,7 +188,7 @@ body{
 
 #layout .verified-m{
     font-family: "Barlow5";
-    font-size: 11px;
+    font-size: 13px;
     color: hsl(0, 0%, 81%);
 }
 
@@ -226,7 +226,7 @@ body{
 #layout .caja-kira .contenido-m{
     position: relative;
     bottom: 9px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #layout .caja-kira .subtitulo-h{
