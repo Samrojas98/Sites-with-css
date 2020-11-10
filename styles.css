@@ -3,13 +3,13 @@
 @font-face{
     font-family: "Barlow5";
     font-weight: normal;
-    src: url(../testimonials-grid-section-main/fonts/BarlowSemiCondensed-Medium.ttf);
+    src: url(fonts/BarlowSemiCondensed-Medium.ttf);
 }
 
 @font-face{
     font-family: "Barlow6";
     font-weight: normal;
-    src: url(../testimonials-grid-section-main/fonts/BarlowSemiCondensed-SemiBold.ttf);
+    src: url(fonts/BarlowSemiCondensed-SemiBold.ttf);
 }
 
 
