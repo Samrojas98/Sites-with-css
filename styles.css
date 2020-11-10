@@ -29,7 +29,7 @@ body{
     grid-gap: 25px;
 
     width: 1440px;
-    height: 543px;
+    height: 720px;
     margin: 80px auto 0 auto;
     
 }
@@ -210,6 +210,7 @@ body{
 #layout .caja-jeanette .contenido-m{
     position: relative;
     bottom: -4px;
+    font-size: 17px;
 }
 
 #layout .caja-jeanette .subtitulo-h{
@@ -226,7 +227,7 @@ body{
 #layout .caja-kira .contenido-m{
     position: relative;
     bottom: 9px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #layout .caja-kira .subtitulo-h{
@@ -268,7 +269,7 @@ body{
 
 #layout .caja-jeanette img{
     position: absolute;
-    bottom: 203px;
+    bottom: 299px;
     width: 27px;
     margin-left: 35px;
     border-radius: 30px 30px 30px 30px; 
@@ -276,7 +277,7 @@ body{
 
 #layout .caja-patrick img{
     position: absolute;
-    bottom: 203px;
+    bottom: 296px;
     width: 27px;
     margin-left: 35px;
     border-radius: 30px 30px 30px 30px;
@@ -285,7 +286,7 @@ body{
 
 #layout .caja-kira img{
     position: absolute;
-    bottom: 546px;
+    bottom: 665px;
     width: 27px;
     margin-left: 35px;
     border-radius: 30px 30px 30px 30px; 
